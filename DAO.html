@@ -1,0 +1,71 @@
+<h1>Tokenomics and its Mechanisms</h1>
+
+<p>
+Equity, dividend and voting tokens are named Sons, Moons and Stars respectively.
+	<ol>
+	<li>All tokens are created by payment into the fund. Paying the company tax earns you Sons, Stars and Moons equal to the fee in dollars you put into the fund with all values rounding down for partial dollars.
+		<ul>
+			<li>The rounding down means the fund has more money than owed to partners. This could be the rainy day fund or insurance funds</li>
+			<li>Partners may be able to choose a percentage of tax to pay with a minimum percentage</li>
+		</ul>
+	</li>
+	<li>The buying of tokens could be allowed for Moons, maybe Sons, but not Stars. Non-members could purchase them as well.
+	<li>Every time a client pays a partner all partners are paid in Moons of half the amount the partner who paid the fee deposited into the fund. Over time this allows high earning partners to stay ahead of inflation but not working while other partners are lowers your percentage Moon holding percentage.
+		<ul>
+			<li>This inflation becomes more and more negligible as the supply of moons outpaces reasonable earnings from contracts. The distribution of  a 1 million Moon supply doesn’t change much if a partner earns 1,000 Moons and everyone else gets 500. Should this number scale with Moon supply? Do we need an additional equaling out of Moons with additional payments?</li>
+		</ul>
+	<li>Additionally, a scheduled inflationary event could deposit equal number of Moons to each partner. If no one works eventually everyone will be given the same dividend.
+		<ul>
+			<li>This could we proportional to the amount variation of percentage holdings. Another equation could be used to determine when to inflate or deflate Moon holdings.
+			i. Inflation during bad times: new_total = [x+std(total) for x in total]
+			ii. Deflation during good times: new_total = [max(x-std(total), 0) for x in total]
+				1) Above average holdings gain Moons while below average lose Moons
+			</li>
+		</ul>
+	<li>When a new partner is introduced, all partner Moons are halved.
+		<ul>
+			<li>This doesn't change dividends paid initially since its percentage based but it allows new partners to catch up.
+		b. Secondarily it may stimulate competition since 1 persons increase in moons relative to others lowers the others dividends paid as a percentage. Percentage changes are bigger with a lower supply.
+				</li>
+		</ul>
+	<li>Voting power depends on the number of Stars. To be able to vote in a new member 2/3rds of Stars must motion in favor of the addition.
+		<ul>
+			<li>Alternatively, the referring partner can stake all their moons for the new partner then only a simple majority is required. The disadvantage is the partner can lose Moons somehow (but may be able to gain more than if the new partner is good enough)
+			</li>
+		</ul>
+	<li>Leaving the company is in both a legal and economic sense. When a partner chooses to leave their Moons are burned and their equity (Sons) in the company is given back to them based on the proportion of the Son supply they hold. The Sons are then burned.
+		<ul>
+			<li>The leaving partner could be able to choose to transfer or burn their Stars along with an equal number of the remaining partners' Stars (equally or targeted). This could make the remaining partners more vulnerable to new partners taking more control.
+			</li>
+		</ul>
+	<li>Voting partners out of the company should be difficult but not too difficult. Voting someone out requires two successful votes. A vote is successful if greater than half of all Stars (OR 3/4 of all existing Stars minus the inflicted partners Stars) vote to remove a partner vote to remove the partner. Upon this vote half of the inflicted partners Stars are escrowed. Upon the second successful removal vote, all Moons are burned and they are cashed out of their Sons. The Star procedure in #8 could also be allowed.
+		<ul>
+			<li>A temporary penalty could be implemented across all members (both the voters and inflicted partner possibly to different degrees) such that a decision has to overcome inertia but once it is there is incentive to make a decision in order to lift the penalty.
+			i. One quarter of the remaining Moons could slashed equally amongst partners.
+			ii. All Moons could be escrowed and dividends would be reinvested into the fund until a second vote is made. The second vote either fully reinstates the partner or removes them.
+		b. A permanent penalty of some kind could be placed on the remaining partners after a removal to disincentivize removal of partners for selfish reasons.
+				</li>
+		</ul>
+	<li>There is often work that collectively must be done; there are also situations where partners should be rewarded for benefiting the company in ways that don’t involve direct payment. Once a quarter (or less) a quarter of all partners’ Moons are required to be transferred to other partners or be burned. A meeting can occur where partners who believe they performed work for the company that deserves payment beyond what they have been paid within the quarterly period can make their case.
+		<ul>
+			<li>Moon inflation added equally benefits partners with less Moons while Moon deflation (equal subtraction) benefits those with more Moons. So no one transferring Moons in #10 results in those with more Moons having a higher percentage of Moon holdings.
+				</li>
+		</ul>
+	<li>Partners may wish to take a loan. The partner can Escrow their Sons and receive fiat to pay back at a later date. The drawback being that the partner does not receive dividend payments until the loan is paid.
+	<li>For whatever reason a partner may want to give or receive another partners tokens. Only Moons can be freely traded amongst partners (whilst Sons can and will only increase with a partner contribution to the fund where 1 dollar equals 1 Son).
+	<li>Partners who are behaving against the interest of the company, but not so egregious that they are being motioned to be removed, may require some sort of punishment. A partner can sacrifice 3 moons in exchange for destroying 2 moons belonging to another partner. If multiple partners work together this strategy is effective.
+	<li>Some tasks no one is willing to do. These tasks are rewarded enough Moons that a partner is willing to get it done. This does not exclude client payment rules if it is a paid task.
+		<ul>
+			<li>Should partners first negotiate Moons then do the task or go about the quarterly transfer of Moons?
+				</li>
+		</ul>
+	<li>A partner can call a vote on a company decision. In order to do so they must stake their Stars since we want to minimize calling too many votes. By not participating, a partner can lose stars proportional to the vote caller's stake. The vote caller also loses stars proportional to how many people didn’t vote. If no one votes then the vote staker loses some stake but the incentive then becomes the ones who do participate in the vote have more voting power. Stars may be replenished by proportion of holding to prevent becoming too fractional. The more stars staked the more important but longer the voting period unless further stars are staked to shorten it. Equations are as follows:
+		<ul>
+			<li>Vote caller's return on their staked Stars = Stake*(1/2 + min(percent_Voted, 1/2))
+		b. Non-voters equation ∆Stars = Stars - max(percent_Voted - 1/2, 0)*stake / #non_Voters
+			i. In effect, if more than half of partners vote, the non-voters are punished. If less than half vote then the staker is punished. Perhaps non-voters should experience a small penalty.
+				</li>
+		</ul>
+	</ol>
+Staked Stars may be allocated to two categories, Importance and Urgency. Maybe only importance Stars are a function of the above equations?
+</p>
