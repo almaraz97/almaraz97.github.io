@@ -2,7 +2,7 @@
 title: Overview- GroceryHero
 description: The ultimate recipe and grocery app
 date: 2024-10-29 14:00:00 - 500
-categories: [groceryhero]
+categories: [portfolio]
 tags: [web, blockchain, recipes]
 ---
 
