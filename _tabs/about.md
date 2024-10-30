@@ -1,6 +1,7 @@
 ---
 # the default layout is 'page'
-icon: fas fa-info-circle
+title: About Me
+icon: fas fa-user
 order: 4
 ---
 
