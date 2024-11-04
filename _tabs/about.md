@@ -7,9 +7,12 @@ order: 4
 
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page. -->
 <!-- {: .prompt-tip } -->
+## TLDR;
+I'm Alex, a full-stack web3 developer and entrepreneur from Sarasota, Florida. I'm passionate about privacy, AI, and the future of the internet. I'm currently working on a few projects in the web3 space and am open to new opportunities. Here's my <a href="/assets/Alejandro_Almaraz_CV.pdf" target="_blank" style="text-decoration: none;">resume</a>!
 
-## My story
-My name is Alex and I'm from the small city of Sarasota, Florida- best known for it's beaches and a top destination for retirees. I've always been excited by science and technology and whle I call Sarasota home I believe my purpose is making a global impact which is why I'm on this journey.
+
+## My Story
+My name is Alex and I'm from the small city of Sarasota, Florida- best known for it's beaches and a top destination for retirees. I've always been excited by science and technology and while I call Sarasota home it has always felt too small for me. What drives me is understanding new frameworks, paradigms, mental models, and then applying in novel ways. Concretely, this lead me to web3 rewriting incentive structures, zk in privacy, and other tech I think can make a global impact.
 
 My social awkwardness and painful self-awareness of this fact in grade-school led me to the world of self-improvement at a young age so when I attended the University of Florida psychology seemed like the natural next step. As I reached my junior year, however, it became obvious I neither wanted to be a therapist nor an academic. 
 
