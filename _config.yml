@@ -16,7 +16,7 @@ timezone: America/New_York
 
 title: Alejandro Almaraz # the main title
 
-tagline: Full-stack web3 developer with 5 yoe # it will display as the subtitle
+tagline: Experienced full-stack web3 developer | <a href="/assets/Alejandro_Almaraz_CV.pdf" target="_blank">Resume</a>
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
