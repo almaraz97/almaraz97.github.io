@@ -1,7 +1,7 @@
 ---
 title: Fungibility As a Spectrum
 description: Why fungibility is not so black and white
-date: 2024-10-31 10:00:00 - 500
+date: 2024-12-10 10:00:00 - 500
 categories: [Technical Writing]
 tags: [denota, tokens, blockchain, utxo]
 ---
