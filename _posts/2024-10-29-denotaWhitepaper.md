@@ -20,10 +20,8 @@ Denota Protocol addresses these challenges by offering a flexible, programmable 
 
 Denota’s most notable features are as follows:
 
-- **Hooks:** Cheap and easy-to-deploy custom logic that executes at specific points in a Nota's lifecycle. Hooks can execute both before and after actions that modify a Nota's state, can be chained together, and support dynamic fees upon completion. They enable developers to define dynamic behaviors, enforce validation rules, and integrate with other protocols.
-- **Singleton Contract:** Denota uses a singleton design, meaning all Notas are managed within a single contract (`NotaRegistrar`). This simplifies interactions, reduces gas costs, and allows for a single ERC20 approval. It provides a standard interface, trusted execution, and a tooling ecosystem for improved development and integration.
-- **ERC20 and ERC721 Compatibility:** Seamless integration with existing token standards, allowing any ERC20 token to be wrapped into ERC721 Notas. This enables integration for existing and future protocols that support these standards.
-- **Dynamic Metadata:** Ability to attach and update arbitrary metadata on Notas. Through hooks, Notas can have dynamic metadata, allowing for customizable token representations and integrations with applications that utilize this metadata like wallets and marketplaces.
-- **Permissionless and Non-Custodial:** Denota maintains a trust-minimized architecture—non-custodial, non-upgradable, with no governance—ensuring users have full control over their assets with additional opt-in trust assumptions through hooks.
-
-[More coming soon]
+- **Hooks**: Custom logic that executes at specific points in a Nota's lifecycle. Hooks can execute both before and after actions that modify a Nota's state, can be chained together, and support dynamic fees upon completion. They enable developers to define dynamic behaviors, enforce validation rules, and integrate with other protocols.
+- **Singleton Contract**: Denota uses a singleton design, meaning all Notas are managed within a single contract (`NotaRegistrar`). This simplifies interactions, reduces gas costs, and allows for a single ERC20 approval. It also provides a standard interface for smart contracts and front-ends to interact with, trusted execution semantics, and enables an ecosystem of tooling for improved development and integration.
+- **ERC20 and ERC721 Compatibility**: Denota supports any ERC20 token for escrow and mints a corresponding ERC721 token to the specified owner. This enables integration for existing and future tokens and protocols that support these standards.
+- **Dynamic Metadata**: Ability to attach and update arbitrary metadata on Notas. Through hooks, Notas can have dynamic metadata, allowing for customizable token representations and integrations with applications that utilize this metadata like wallets and marketplaces.
+- **Trust-minimized**: The singleton is non-custodial and non-upgradable with trust assumptions being opt-in through hook logic, with no governance—ensuring users have full control over their assets with additional opt-in trust assumptions through hooks.
